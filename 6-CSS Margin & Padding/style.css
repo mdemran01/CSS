@@ -1,0 +1,13 @@
+.box{
+    background: blueviolet;
+    width: 500px;
+    height: 500px;
+    border: 5px solid greenyellow;
+    text-align: center;
+    text-shadow: 10px;
+
+    margin: 100px auto;
+    padding: 100px;
+    /* padding-left/right/top/bottom: ; */
+    
+}

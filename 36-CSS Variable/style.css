@@ -1,0 +1,47 @@
+:root{
+    --primary:blueviolet;
+    --secendary:yellow;
+    --contant-box:black;
+    --basic:white;
+}
+
+
+body{
+    background: var(--primary);
+}
+h1{
+    font-family: sans-serif;
+    background: var(--secendary);
+    text-align: center;
+    padding: 15px;
+}
+.section{
+    width: 90%;
+   background: black;
+   color: var(--basic);
+   box-sizing: border-box;
+   padding: 20px;
+   margin-bottom: 5px;
+   border-radius: 6px;
+}
+.section h2{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.section p{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.section a{
+    background: var(--secendary);
+    text-decoration: none;
+    color: var(--contant-box);
+    font-family: sans-serif;
+    padding: 12px 18px;
+    border-radius: 6px;
+    
+}
+.section a:hover{
+    background: var(--primary);
+    color: var(--basic);
+}

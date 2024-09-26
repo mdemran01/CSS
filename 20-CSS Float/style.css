@@ -1,0 +1,24 @@
+div{
+    background-color: aqua;
+    margin-bottom: 10px;
+     overflow: hidden;
+}
+
+img{
+    width: 150px;
+    /* float: left; */
+    /* float: right; */
+
+    float: none;
+
+   
+    margin: 0px auto 20px;
+    float: left;
+
+    display: block;
+}
+
+
+p{
+    font-family: sans-serif;
+}

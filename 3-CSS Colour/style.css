@@ -1,0 +1,5 @@
+h1{
+    /* color: red; */
+    /* color: rgb(rgb(0, 0, 0), rgb(242, 255, 0), rgb(241, 241, 241)); */
+    color: rgba(red, green, blue, alpha);
+}

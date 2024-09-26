@@ -1,0 +1,37 @@
+/* Target=-blank */
+a[target]{
+    text-decoration: none;
+    color: red;
+}
+/* target="_self */
+a[target="_self"]{
+    color: aqua;
+    font-size: 20px;
+}
+/* title="name" */
+a[title~="css"]{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+div[class|="child"]{
+    width: 300px;
+    height: 200px;
+    background: aqua;
+    margin-bottom: 5px;
+}
+
+div[class^="child"]{
+    width: 250px;
+    height: 80px;
+    background: greenyellow;
+}
+
+div[class$="ice"]{
+    background: gold;
+}
+
+div[class*="ild"]{
+    background: blueviolet;
+}

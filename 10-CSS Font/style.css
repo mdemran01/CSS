@@ -1,0 +1,14 @@
+h1{
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: fantasy;
+    font-family: cursive;
+
+    /* font-style: normal/italic/oblique; */
+
+    font-weight: bold;
+}
+h3{
+    font-variant: small-caps;
+}

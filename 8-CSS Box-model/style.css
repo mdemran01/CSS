@@ -1,0 +1,26 @@
+div{
+    width: 23%;
+    height: 200px;
+    border: 0.5em solid red;
+    float: left;
+    padding: 1%;
+    margin: 2%;
+}
+
+.box1{
+    background: green;
+    color: white;
+    text-align: center;
+}
+
+.box2{
+    background: gold;
+    color: black;
+    text-align: center;
+}
+
+.box3{
+    background: aqua;
+    color: red;
+    text-align: center;
+}

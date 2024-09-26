@@ -1,0 +1,7 @@
+img{
+    max-width: 100%;
+    opacity: 1;
+}
+img:hover{
+    opacity: 0.5;
+}

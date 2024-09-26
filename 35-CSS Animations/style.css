@@ -1,0 +1,61 @@
+.d1{
+
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    border: 5px solid black;
+
+    animation-name: learning;
+    animation-duration: 1s;
+}
+@keyframes learning{
+    from{
+        background: aqua;
+    }
+    to{
+        background: plum;
+        border: 5px solid yellow;
+    }
+}
+
+.d2{
+
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin-top: 50px;
+    
+
+    animation-name: learning-css;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes learning-css{
+    0%{
+        background: blue;
+        width: 150px;
+        height: 150px;
+    }
+    25%{
+        background: greenyellow;
+        width: 200px;
+        height: 200px;
+        
+    }
+    50%{
+        background: palevioletred;
+        width: 250px;
+        height: 250px;
+    }
+    75%{
+        background: brown;
+        width: 200px;
+        height: 200px;
+    }
+    100%{
+        background: blueviolet;
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,47 @@
+#sub{
+    font-family: sans-serif;
+    background: red;
+    color: #ffffff;
+    padding: 10px 16px;
+    font-size: 22px;
+    border-radius: 18px;
+    display: inline-block;
+    margin: 100px;
+    margin-left: 50%;
+    text-align: center;
+    
+    text-decoration: none;
+
+    border: 2px solid black;
+
+}
+#sub:hover{
+    background: black;
+    color: white;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#sub:visited{
+    background: blue;
+    color: white;
+     
+}
+
+.vis{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+.vis:hover{
+    background: red;
+    color: white;
+    padding: 8px 15px;
+}
+.vis:active{
+    color: black;
+}
+.vis:focus{
+    color: aqua;
+    font-weight: bold;
+    text-transform: uppercase;
+}

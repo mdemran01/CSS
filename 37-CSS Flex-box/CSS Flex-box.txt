@@ -1,0 +1,31 @@
+   CSS Flex-Box
+
+display:flex;
+flex-diraction:row/coloum;
+flex-diraction:row-reverse/coloum-reverse;
+flex-wrap:no-wrap/wrap;------use---flex-basis:pz;
+flex-flow:row reverse worp reverse;  wrap/noweap/wrap-reverse-----short hand verson
+justify-contant:start/end/space-araound/space-betowin/space-evently; space-betowin recomendad
+
+
+Now Y xies
+
+align-item:flex-start/flex-end/center/stretch/baseline;
+align-contant:space-around/space-evently/space betowin;
+
+
+one div midle
+align-items: center;
+justify-content: center;
+
+order change
+.item:nth-child(1){
+    order: 8;
+}
+
+area2/4 gun
+flex-grow:4;
+.item:nth-child(1){
+    order: 4;
+    flex-grow: 4;
+}

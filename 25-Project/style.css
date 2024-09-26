@@ -1,0 +1,22 @@
+.service_section{
+    text-align: center;
+    background: blueviolet;
+    padding: 45px 25px;
+    color: white;
+}
+.service_section h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+.service_section a{
+    display: inline-block;
+    background: gold;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.service_section a:hover{
+    background: aqua;
+}

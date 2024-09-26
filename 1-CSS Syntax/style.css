@@ -1,0 +1,12 @@
+h1{
+    color: red;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+/* 
+h1=Selector 
+color/font-size=Property
+red/100px=value
+h1/color-red/=Declaration
+*/

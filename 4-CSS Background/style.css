@@ -1,0 +1,21 @@
+/* body{
+    background: url(photo.jpg);
+    background-attachment: fixed;
+    
+} */
+
+.bac{
+    width: 700px;
+    height: 400px;
+    background: blue;
+    background-image: url(photo.jpg);
+    border: 5px solid red;
+    background-size: 500px 250px;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bac p{
+    text-align: center;
+    color: #eaff00;
+}

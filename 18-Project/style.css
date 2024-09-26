@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    
+
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+
+    z-index: 1;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-size: 15px;
+
+    margin-top: 30px;
+    padding: 20px;
+}
+a{
+    background: gold;
+    color: black;
+    text-decoration: none;
+    padding: 12px 18px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+a:hover{
+
+    background: white;
+}
+div{
+    width: 100%;
+    height: 100%;
+    background: brown;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+
+    z-index: -1;
+}

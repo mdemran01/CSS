@@ -1,0 +1,30 @@
+h2{
+    color: blue;
+    background: aqua;
+    text-align: center;
+    text-shadow: 5px 5px 3px rgb(255, 0, 0);
+}
+
+p{
+    text-align-last: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+    line-height: 80px;
+    /* white-space: break/nowrap; */
+    word-spacing: 20px;
+    /* text-indent: 100px; */
+}
+h3{
+    /* vertical-align: text-bottom; */
+    text-decoration: overline;
+    /* direction: rtl; */
+    
+}
+
+h4{
+    direction: rtl;
+    /* unicode-bidi: bidi-override; */
+}
+h5{
+    text-transform: uppercase;
+}
